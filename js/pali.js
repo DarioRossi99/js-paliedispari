@@ -12,8 +12,8 @@ for (let i = parolaArrey.length-1; i >= 0; i--) {
 console.log(parolaVersa);
 
 if (parola == parolaInversa){
-    console.log("la parola" + parola + "é palindroma");
+    console.log("la parola " + parola + " é palindroma");
 }else{
     console.log(parolaArrey.reverse());
-    console.log("la parola" + parola + "NON è palindroma");
+    console.log("la parola " + parola + " NON è palindroma");
 }
